@@ -34,6 +34,6 @@ public class IPVA {
     }
     public  String imprimir(){
         return "Valor base:"+valorBase+
-                "\n quantidade de cavalos:"+quantidadeCavalos;
+                "\n quantidade de cavalos: "+quantidadeCavalos;
     }
 }

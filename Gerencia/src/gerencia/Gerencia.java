@@ -29,7 +29,7 @@ public class Gerencia {
 
         IPVA carro = new IPVA(valor, qtCavalos);
         
-        carro.calcularIPVA();
+        System.out.println(carro.calcularIPVA());
         System.out.print(carro.imprimir());
     }
     
